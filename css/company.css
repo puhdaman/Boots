@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Jost';
+    
+}
+.logo {
+    position: relative;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.knopka {   
+    list-style-type: none;
+    margin-top: -70px;    
+}
+
+.knopka li {
+    margin: 0 23px;    
+}
+
+ul li {
+    display:inline-block;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    background: #F3F3F3;
+    text-align: center;
+    
+}
+.button:hover {
+    
+    transform: scale(1.2);
+}
+.button:active{
+    transform: scale(0.9);
+    opacity: .8;
+    background: #9A1212;
+}
+.button a {
+    margin-top: -2px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.button a:hover {    
+    color: #9A1212;
+}
+.button a:active {    
+    color: white;
+}
+
+
+.text {
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    left: 278px;
+    top: 193px;
+    font-size: 29px;
+    line-height: 42px;
+    text-align: right;
+    margin-right: 10px;
+}
+.footer {
+    margin: 500px 0 0 0;
+    display: flex;
+    align-items:center;
+    align-self:end;
+    height: 100px;
+    width: 100%;
+    background-color: #F3F3F3;
+    bottom: 0;
+}
+
+.footer-text {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    color: #9A1212;
+    margin-right: 30px;
+    text-align: right;
+}
+.footer-s {    
+    width: 84px;
+    height: 56px;
+    left: 21px;
+    margin-left: 40px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.footer-s:hover{
+    transform: scale(1.2);
+}
+
+.s-left {
+    margin-top: 12px;
+    margin-left: 25px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    transition: opacity .3s, transform .3s;
+}
+
+.s-left:hover {
+    opacity: .8;
+    transform: scale(1.2);
+}
+
+.s-left div {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-left: solid #9A1212 7px;
+    border-bottom: solid #9A1212 7px;
+    transform: rotate(45deg);
+}
+.s-left div:nth-child(1) {
+    left: 50%;
+}
+.kech {
+    z-index: 1;   
+    position: absolute;
+    width: 174px;
+    height: 192px;
+    left: 150px;
+    top: 300px;
+}
+
+.big {
+    background-color: #9A1212;
+    transform: scale(2);
+    margin: 30px 30px 30px 30px;
+}
+.big a{
+    color: white;
+}
+.big a:hover{
+    color: white;
+}
